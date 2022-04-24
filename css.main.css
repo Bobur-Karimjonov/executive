@@ -1,0 +1,138 @@
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-color: #FFFFFF;
+        }
+        
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .header {
+            display: flex;
+            padding: 26px 0 96px 0;
+        }
+        
+        .header__inner {
+            display: flex;
+            padding: 40px 0;
+        }
+        
+        .nav {
+            margin-left: auto;
+            display: flex;
+        }
+        
+        .nav__list {
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        .nav__item {
+            display: flex;
+            margin-right: 71px;
+        }
+        
+        .mmm {
+            margin-right: 0;
+        }
+        
+        .nav__link {
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 20px;
+            /* identical to box height */
+            color: #373737;
+            text-decoration: none;
+        }
+        
+        .active {
+            /* margin-right: 0; */
+            padding: 9px 33px 13px 36px;
+            border: 2px solid #717CFF;
+            border-radius: 11px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 20px;
+            /* identical to box height */
+            text-align: center;
+            color: #505050;
+        }
+        
+        .hero {
+            background-image: url(./images/Grou16.png);
+            background-repeat: no-repeat;
+            background-size: 470px 556px;
+            background-position: calc(50% + 400px);
+        }
+        
+        .hero__inner {
+            width: 632px;
+        }
+        
+        .hero__title {
+            margin: 0;
+            margin-bottom: 24px;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 56px;
+            line-height: 66px;
+            color: #2F2F2F;
+        }
+        
+        .title {
+            color: rgba(113, 124, 255, 1);
+        }
+        
+        .hero__text {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 38px;
+            /* or 173% */
+            color: #7D7D7D;
+            margin: 0;
+            margin-bottom: 42px;
+        }
+        
+        .hero__link {
+            display: block;
+            padding: 12px 90px 12px 34px;
+            margin-bottom: 106px;
+            width: 262px;
+            color: #FFFFFF;
+            background-color: #717CFF;
+            border-radius: 11px;
+            text-decoration: none;
+        }
+        
+        .hero__sublist {
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        .hero__subitem {
+            margin-right: 25px;
+        }
+        
+        .item {
+            margin-right: 0;
+        }
+        
+        .hero_sublink {
+            text-decoration: none;
+        }
